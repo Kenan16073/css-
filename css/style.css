@@ -31,7 +31,7 @@ body {
     text-transform: uppercase;
     color: #4f4f4f;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom:30px;
     padding-top: 34px;
 }
 #one h5 {
@@ -75,10 +75,13 @@ body {
     font-family: "Proxima Nova";
     cursor: pointer;
 }
-#one header label:nth-child(3) {
+#one form header a{
+    text-decoration: none;
+}
+#one form header a label  {
     font-size: 14px;
     line-height: 28px;
-    color: #04a9f4;
+    color: #0eafff;
     font-weight: bold;
     font-family: "Proxima Nova";
     text-align: right;
@@ -93,7 +96,7 @@ body {
     margin-bottom: 26px;
     cursor: pointer;
 }
-#one form button {
+#one form button  {
     width: 352px;
     height: 55px;
     border-radius: 4px;
@@ -111,7 +114,6 @@ body {
     margin-bottom: 50px;
     cursor: pointer;
 }
-
 #one header .fb button {
     width: 170px;
     height: 36px;
@@ -148,7 +150,7 @@ body {
 }
 .fa-eye{
     position: absolute;
-    top: 51%;
+    top: 50%;
     right:13%;
     cursor: pointer;
     color: #555555
